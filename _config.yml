@@ -10,3 +10,4 @@ defaults:
       layout: "default"
 exclude:
   - node_modules
+hypothesis: false
