@@ -1,6 +1,8 @@
 # form-jekyll
 
-`form-jekyll` is a [Jekyll](https://jekyllrb.com/) theme that lets you easily build a prototype of an SF.GOV form in a YAML file. Right now, it lets you add:
+`form-jekyll` is a [Jekyll](https://jekyllrb.com/) theme that lets you easily prototype online forms in a YAML file.
+
+Right now, it lets you add:
 
 - Multiple field types
 - Custom error messages
@@ -16,9 +18,6 @@ Since YAML is easy to read, non-technical colleagues can easily give feedback on
 - Designers can prototype, comment, and iterate on forms as easily as they might a Google Doc.
 
 - Designers can easily give external stakeholders a realistic preview of how a form will work.
-
-### Demo
-[https://form-jekyll.netlify.com/](https://form-jekyll.netlify.com/)
 
 ---
 
@@ -77,8 +76,7 @@ Then, set up your development server with `bundle exec jekyll serve --watch`.
 ### Directory structure
 
 - `_includes/fields`: partials for all field types. (If you want to add a field type, place it here.)
-- `_includes/elements`: partials for standard HTML elements (like labels and help text) 
-- `_includes/sfgov`: partials for SF.gov-specific patterns
+- `_includes/elements`: partials for standard HTML elements (like labels and help text)
 - `_includes/pages`: Standard pages for the form (like preview and confirmation pages)
 
 ---
@@ -89,7 +87,7 @@ Visiting your development server (usually `localhost:4000`) will show the "Choos
 
 ### The admin panel
 
-Since you're building a prototype, you're also able to preview your forms at different levels of abstraction: you can see all pages on the same screen, view annotations from the form's creator, or toggle all conditionally hidden fields. 
+Since you're building a prototype, you're also able to preview your forms at different levels of abstraction: you can see all pages on the same screen, view annotations from the form's creator, or toggle all conditionally hidden fields.
 
 To toggle these settings, press `Command + Option + .` or `Control + Option + .` when viewing a prototype.
 
