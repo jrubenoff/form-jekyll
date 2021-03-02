@@ -15,7 +15,6 @@
 @import 'sf-design-system/forms/form-fields';
 @import 'sf-design-system/forms/pagination';
 
-@import 'sfgov';
 
 body {
   margin: 0;
@@ -23,7 +22,7 @@ body {
 }
 
 form {
-  @include contain-1090;
+  margin: 0 auto;
 }
 
 .form-group {
