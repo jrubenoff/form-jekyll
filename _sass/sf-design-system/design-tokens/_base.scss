@@ -1,14 +1,17 @@
+@import "functions";
+
 html {
   font-size: $base-font-size;
 }
 
 body {
-	@include rubik;
-	color: $slate;
+  @include rubik;
+
+  color: $slate;
 }
 
 *,
 *::before,
 *::after {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
